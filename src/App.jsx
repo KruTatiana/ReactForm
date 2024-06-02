@@ -31,19 +31,3 @@ function App() {
 }
 
 export default App;
-
-// function TextInput {
-//   const [text, setText] = useState("")
-
-//   handleSubmit = (e) => {
-//     e.preventDefault();
-//     alert(`Было введено имя: ${text}`);
-//   };
-
-//   return(
-// 		<form onSubmit={handleSubmit}>
-// 	    <input onChange={(e) => setText(e.targetValue)} value={text} />
-// 	    <input type='submit' value='Submit' />
-// 	  </form>
-// 	);
-// }
